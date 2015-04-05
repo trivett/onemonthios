@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFA72F2A1AD196340091167B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA72F291AD196340091167B /* AppDelegate.swift */; };
+		BFA72F2C1AD196340091167B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA72F2B1AD196340091167B /* ViewController.swift */; };
+		BFA72F2F1AD196340091167B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA72F2D1AD196340091167B /* Main.storyboard */; };
+		BFA72F311AD196340091167B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA72F301AD196340091167B /* Images.xcassets */; };
+		BFA72F341AD196340091167B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA72F321AD196340091167B /* LaunchScreen.xib */; };
+		BFA72F401AD196340091167B /* PhotogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA72F3F1AD196340091167B /* PhotogTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA72F3A1AD196340091167B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA72F1C1AD196340091167B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA72F231AD196340091167B;
+			remoteInfo = Photog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFA72F241AD196340091167B /* Photog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA72F281AD196340091167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA72F291AD196340091167B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFA72F2B1AD196340091167B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFA72F2E1AD196340091167B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFA72F301AD196340091167B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFA72F331AD196340091167B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BFA72F391AD196340091167B /* PhotogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA72F3E1AD196340091167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA72F3F1AD196340091167B /* PhotogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotogTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA72F211AD196340091167B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA72F361AD196340091167B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA72F1B1AD196340091167B = {
+			isa = PBXGroup;
+			children = (
+				BFA72F261AD196340091167B /* Photog */,
+				BFA72F3C1AD196340091167B /* PhotogTests */,
+				BFA72F251AD196340091167B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA72F251AD196340091167B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA72F241AD196340091167B /* Photog.app */,
+				BFA72F391AD196340091167B /* PhotogTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA72F261AD196340091167B /* Photog */ = {
+			isa = PBXGroup;
+			children = (
+				BFA72F291AD196340091167B /* AppDelegate.swift */,
+				BFA72F2B1AD196340091167B /* ViewController.swift */,
+				BFA72F2D1AD196340091167B /* Main.storyboard */,
+				BFA72F301AD196340091167B /* Images.xcassets */,
+				BFA72F321AD196340091167B /* LaunchScreen.xib */,
+				BFA72F271AD196340091167B /* Supporting Files */,
+			);
+			path = Photog;
+			sourceTree = "<group>";
+		};
+		BFA72F271AD196340091167B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA72F281AD196340091167B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFA72F3C1AD196340091167B /* PhotogTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA72F3F1AD196340091167B /* PhotogTests.swift */,
+				BFA72F3D1AD196340091167B /* Supporting Files */,
+			);
+			path = PhotogTests;
+			sourceTree = "<group>";
+		};
+		BFA72F3D1AD196340091167B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA72F3E1AD196340091167B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA72F231AD196340091167B /* Photog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA72F431AD196340091167B /* Build configuration list for PBXNativeTarget "Photog" */;
+			buildPhases = (
+				BFA72F201AD196340091167B /* Sources */,
+				BFA72F211AD196340091167B /* Frameworks */,
+				BFA72F221AD196340091167B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photog;
+			productName = Photog;
+			productReference = BFA72F241AD196340091167B /* Photog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA72F381AD196340091167B /* PhotogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA72F461AD196340091167B /* Build configuration list for PBXNativeTarget "PhotogTests" */;
+			buildPhases = (
+				BFA72F351AD196340091167B /* Sources */,
+				BFA72F361AD196340091167B /* Frameworks */,
+				BFA72F371AD196340091167B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA72F3B1AD196340091167B /* PBXTargetDependency */,
+			);
+			name = PhotogTests;
+			productName = PhotogTests;
+			productReference = BFA72F391AD196340091167B /* PhotogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA72F1C1AD196340091167B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = vincent;
+				TargetAttributes = {
+					BFA72F231AD196340091167B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BFA72F381AD196340091167B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BFA72F231AD196340091167B;
+					};
+				};
+			};
+			buildConfigurationList = BFA72F1F1AD196340091167B /* Build configuration list for PBXProject "Photog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA72F1B1AD196340091167B;
+			productRefGroup = BFA72F251AD196340091167B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA72F231AD196340091167B /* Photog */,
+				BFA72F381AD196340091167B /* PhotogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA72F221AD196340091167B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA72F2F1AD196340091167B /* Main.storyboard in Resources */,
+				BFA72F341AD196340091167B /* LaunchScreen.xib in Resources */,
+				BFA72F311AD196340091167B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA72F371AD196340091167B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA72F201AD196340091167B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA72F2C1AD196340091167B /* ViewController.swift in Sources */,
+				BFA72F2A1AD196340091167B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA72F351AD196340091167B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA72F401AD196340091167B /* PhotogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA72F3B1AD196340091167B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA72F231AD196340091167B /* Photog */;
+			targetProxy = BFA72F3A1AD196340091167B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFA72F2D1AD196340091167B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA72F2E1AD196340091167B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFA72F321AD196340091167B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA72F331AD196340091167B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFA72F411AD196340091167B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFA72F421AD196340091167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA72F441AD196340091167B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Photog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFA72F451AD196340091167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Photog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFA72F471AD196340091167B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photog.app/Photog";
+			};
+			name = Debug;
+		};
+		BFA72F481AD196340091167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photog.app/Photog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA72F1F1AD196340091167B /* Build configuration list for PBXProject "Photog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA72F411AD196340091167B /* Debug */,
+				BFA72F421AD196340091167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA72F431AD196340091167B /* Build configuration list for PBXNativeTarget "Photog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA72F441AD196340091167B /* Debug */,
+				BFA72F451AD196340091167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA72F461AD196340091167B /* Build configuration list for PBXNativeTarget "PhotogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA72F471AD196340091167B /* Debug */,
+				BFA72F481AD196340091167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA72F1C1AD196340091167B /* Project object */;
+}
