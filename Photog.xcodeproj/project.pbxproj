@@ -7,35 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF504ACB1AD1D4810032BDC8 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF504AC91AD1D4810032BDC8 /* AuthViewController.swift */; };
+		BF504ACC1AD1D4810032BDC8 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF504ACA1AD1D4810032BDC8 /* AuthViewController.xib */; };
 		BFA72F2A1AD196340091167B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA72F291AD196340091167B /* AppDelegate.swift */; };
-		BFA72F2C1AD196340091167B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA72F2B1AD196340091167B /* ViewController.swift */; };
-		BFA72F2F1AD196340091167B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA72F2D1AD196340091167B /* Main.storyboard */; };
 		BFA72F311AD196340091167B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA72F301AD196340091167B /* Images.xcassets */; };
 		BFA72F341AD196340091167B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA72F321AD196340091167B /* LaunchScreen.xib */; };
-		BFA72F401AD196340091167B /* PhotogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA72F3F1AD196340091167B /* PhotogTests.swift */; };
+		BFA72F4B1AD1A10F0091167B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F491AD1A10F0091167B /* Bolts.framework */; };
+		BFA72F4C1AD1A10F0091167B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F4A1AD1A10F0091167B /* Parse.framework */; };
+		BFA72F4E1AD1A1540091167B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F4D1AD1A1540091167B /* AudioToolbox.framework */; };
+		BFA72F501AD1A15C0091167B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F4F1AD1A15C0091167B /* CFNetwork.framework */; };
+		BFA72F521AD1A1690091167B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F511AD1A1690091167B /* CoreGraphics.framework */; };
+		BFA72F541AD1A1700091167B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F531AD1A1700091167B /* CoreLocation.framework */; };
+		BFA72F561AD1A17E0091167B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F551AD1A17E0091167B /* libz.dylib */; };
+		BFA72F581AD1A1990091167B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F571AD1A1990091167B /* MobileCoreServices.framework */; };
+		BFA72F5A1AD1A1A00091167B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F591AD1A1A00091167B /* QuartzCore.framework */; };
+		BFA72F5C1AD1A1A50091167B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F5B1AD1A1A50091167B /* Security.framework */; };
+		BFA72F5E1AD1A1AA0091167B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F5D1AD1A1AA0091167B /* StoreKit.framework */; };
+		BFA72F601AD1A1B40091167B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F5F1AD1A1B40091167B /* SystemConfiguration.framework */; };
+		BFA72F651AD1AA360091167B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA72F641AD1AA360091167B /* libsqlite3.dylib */; };
+		BFA72F691AD1B8900091167B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA72F671AD1B8900091167B /* StartViewController.swift */; };
+		BFA72F6A1AD1B8900091167B /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA72F681AD1B8900091167B /* StartViewController.xib */; };
+		BFC9666F1AD3609F002087E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC9666E1AD3609F002087E4 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BFA72F3A1AD196340091167B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFA72F1C1AD196340091167B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFA72F231AD196340091167B;
-			remoteInfo = Photog;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		BF504AC91AD1D4810032BDC8 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		BF504ACA1AD1D4810032BDC8 /* AuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
 		BFA72F241AD196340091167B /* Photog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFA72F281AD196340091167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFA72F291AD196340091167B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFA72F2B1AD196340091167B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFA72F2E1AD196340091167B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFA72F301AD196340091167B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BFA72F331AD196340091167B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BFA72F391AD196340091167B /* PhotogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFA72F3E1AD196340091167B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFA72F3F1AD196340091167B /* PhotogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotogTests.swift; sourceTree = "<group>"; };
+		BFA72F491AD1A10F0091167B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../parse-library-1.7.1/Bolts.framework"; sourceTree = "<group>"; };
+		BFA72F4A1AD1A10F0091167B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../parse-library-1.7.1/Parse.framework"; sourceTree = "<group>"; };
+		BFA72F4D1AD1A1540091167B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BFA72F4F1AD1A15C0091167B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BFA72F511AD1A1690091167B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFA72F531AD1A1700091167B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BFA72F551AD1A17E0091167B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BFA72F571AD1A1990091167B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BFA72F591AD1A1A00091167B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFA72F5B1AD1A1A50091167B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BFA72F5D1AD1A1AA0091167B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BFA72F5F1AD1A1B40091167B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFA72F611AD1A2B60091167B /* Photog-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photog-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFA72F641AD1AA360091167B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BFA72F671AD1B8900091167B /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		BFA72F681AD1B8900091167B /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		BFC9666B1AD35EFF002087E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../.Trash/Info.plist; sourceTree = "<group>"; };
+		BFC9666E1AD3609F002087E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BFC966701AD3613D002087E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../thing/thingTests/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,22 +64,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFA72F361AD196340091167B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BFA72F651AD1AA360091167B /* libsqlite3.dylib in Frameworks */,
+				BFA72F521AD1A1690091167B /* CoreGraphics.framework in Frameworks */,
+				BFA72F541AD1A1700091167B /* CoreLocation.framework in Frameworks */,
+				BFA72F5A1AD1A1A00091167B /* QuartzCore.framework in Frameworks */,
+				BFA72F601AD1A1B40091167B /* SystemConfiguration.framework in Frameworks */,
+				BFA72F5E1AD1A1AA0091167B /* StoreKit.framework in Frameworks */,
+				BFA72F5C1AD1A1A50091167B /* Security.framework in Frameworks */,
+				BFA72F581AD1A1990091167B /* MobileCoreServices.framework in Frameworks */,
+				BFA72F561AD1A17E0091167B /* libz.dylib in Frameworks */,
+				BFA72F501AD1A15C0091167B /* CFNetwork.framework in Frameworks */,
+				BFA72F4E1AD1A1540091167B /* AudioToolbox.framework in Frameworks */,
+				BFA72F4C1AD1A10F0091167B /* Parse.framework in Frameworks */,
+				BFA72F4B1AD1A10F0091167B /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF504ACD1AD1D48D0032BDC8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFA72F671AD1B8900091167B /* StartViewController.swift */,
+				BFA72F681AD1B8900091167B /* StartViewController.xib */,
+				BF504AC91AD1D4810032BDC8 /* AuthViewController.swift */,
+				BF504ACA1AD1D4810032BDC8 /* AuthViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		BFA72F1B1AD196340091167B = {
 			isa = PBXGroup;
 			children = (
+				BFC9666E1AD3609F002087E4 /* Default-568h@2x.png */,
+				BFA72F641AD1AA360091167B /* libsqlite3.dylib */,
 				BFA72F261AD196340091167B /* Photog */,
 				BFA72F3C1AD196340091167B /* PhotogTests */,
 				BFA72F251AD196340091167B /* Products */,
@@ -69,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				BFA72F241AD196340091167B /* Photog.app */,
-				BFA72F391AD196340091167B /* PhotogTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,11 +117,12 @@
 			isa = PBXGroup;
 			children = (
 				BFA72F291AD196340091167B /* AppDelegate.swift */,
-				BFA72F2B1AD196340091167B /* ViewController.swift */,
-				BFA72F2D1AD196340091167B /* Main.storyboard */,
+				BF504ACD1AD1D48D0032BDC8 /* View Controllers */,
 				BFA72F301AD196340091167B /* Images.xcassets */,
 				BFA72F321AD196340091167B /* LaunchScreen.xib */,
 				BFA72F271AD196340091167B /* Supporting Files */,
+				BFA72F611AD1A2B60091167B /* Photog-Bridging-Header.h */,
+				BFA72F661AD1B40E0091167B /* Frameworks */,
 			);
 			path = Photog;
 			sourceTree = "<group>";
@@ -90,7 +130,7 @@
 		BFA72F271AD196340091167B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFA72F281AD196340091167B /* Info.plist */,
+				BFC9666B1AD35EFF002087E4 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -107,9 +147,28 @@
 		BFA72F3D1AD196340091167B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFA72F3E1AD196340091167B /* Info.plist */,
+				BFC966701AD3613D002087E4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFA72F661AD1B40E0091167B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFA72F5F1AD1A1B40091167B /* SystemConfiguration.framework */,
+				BFA72F5D1AD1A1AA0091167B /* StoreKit.framework */,
+				BFA72F5B1AD1A1A50091167B /* Security.framework */,
+				BFA72F591AD1A1A00091167B /* QuartzCore.framework */,
+				BFA72F571AD1A1990091167B /* MobileCoreServices.framework */,
+				BFA72F551AD1A17E0091167B /* libz.dylib */,
+				BFA72F531AD1A1700091167B /* CoreLocation.framework */,
+				BFA72F511AD1A1690091167B /* CoreGraphics.framework */,
+				BFA72F4F1AD1A15C0091167B /* CFNetwork.framework */,
+				BFA72F4D1AD1A1540091167B /* AudioToolbox.framework */,
+				BFA72F491AD1A10F0091167B /* Bolts.framework */,
+				BFA72F4A1AD1A10F0091167B /* Parse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,24 +191,6 @@
 			productReference = BFA72F241AD196340091167B /* Photog.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BFA72F381AD196340091167B /* PhotogTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFA72F461AD196340091167B /* Build configuration list for PBXNativeTarget "PhotogTests" */;
-			buildPhases = (
-				BFA72F351AD196340091167B /* Sources */,
-				BFA72F361AD196340091167B /* Frameworks */,
-				BFA72F371AD196340091167B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BFA72F3B1AD196340091167B /* PBXTargetDependency */,
-			);
-			name = PhotogTests;
-			productName = PhotogTests;
-			productReference = BFA72F391AD196340091167B /* PhotogTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +202,6 @@
 				TargetAttributes = {
 					BFA72F231AD196340091167B = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					BFA72F381AD196340091167B = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = BFA72F231AD196340091167B;
 					};
 				};
 			};
@@ -182,7 +219,6 @@
 			projectRoot = "";
 			targets = (
 				BFA72F231AD196340091167B /* Photog */,
-				BFA72F381AD196340091167B /* PhotogTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,16 +228,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA72F2F1AD196340091167B /* Main.storyboard in Resources */,
+				BF504ACC1AD1D4810032BDC8 /* AuthViewController.xib in Resources */,
 				BFA72F341AD196340091167B /* LaunchScreen.xib in Resources */,
 				BFA72F311AD196340091167B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFA72F371AD196340091167B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BFC9666F1AD3609F002087E4 /* Default-568h@2x.png in Resources */,
+				BFA72F6A1AD1B8900091167B /* StartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,38 +243,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA72F2C1AD196340091167B /* ViewController.swift in Sources */,
 				BFA72F2A1AD196340091167B /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFA72F351AD196340091167B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFA72F401AD196340091167B /* PhotogTests.swift in Sources */,
+				BF504ACB1AD1D4810032BDC8 /* AuthViewController.swift in Sources */,
+				BFA72F691AD1B8900091167B /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		BFA72F3B1AD196340091167B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BFA72F231AD196340091167B /* Photog */;
-			targetProxy = BFA72F3A1AD196340091167B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		BFA72F2D1AD196340091167B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFA72F2E1AD196340091167B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BFA72F321AD196340091167B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,9 +344,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Photog/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/vincent/Desktop/parse-library-1.7.1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/../../.Trash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Photog/Photog-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,43 +361,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Photog/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/vincent/Desktop/parse-library-1.7.1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/../../.Trash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		BFA72F471AD196340091167B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PhotogTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photog.app/Photog";
-			};
-			name = Debug;
-		};
-		BFA72F481AD196340091167B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PhotogTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photog.app/Photog";
+				SWIFT_OBJC_BRIDGING_HEADER = "Photog/Photog-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,14 +392,7 @@
 				BFA72F451AD196340091167B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		BFA72F461AD196340091167B /* Build configuration list for PBXNativeTarget "PhotogTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFA72F471AD196340091167B /* Debug */,
-				BFA72F481AD196340091167B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
