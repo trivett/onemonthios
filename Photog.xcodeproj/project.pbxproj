@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0A2E821B07A2EA0018002E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A2E811B07A2EA0018002E /* String+Extensions.swift */; };
+		BF0A2E841B07B10A0018002E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A2E831B07B10A0018002E /* UIViewController+Extensions.swift */; };
+		BF0A2E861B08ED3E0018002E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A2E851B08ED3E0018002E /* TabBarController.swift */; };
 		BF504ACB1AD1D4810032BDC8 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF504AC91AD1D4810032BDC8 /* AuthViewController.swift */; };
 		BF504ACC1AD1D4810032BDC8 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF504ACA1AD1D4810032BDC8 /* AuthViewController.xib */; };
 		BFA72F2A1AD196340091167B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA72F291AD196340091167B /* AppDelegate.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF0A2E811B07A2EA0018002E /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		BF0A2E831B07B10A0018002E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		BF0A2E851B08ED3E0018002E /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		BF504AC91AD1D4810032BDC8 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		BF504ACA1AD1D4810032BDC8 /* AuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
 		BFA72F241AD196340091167B /* Photog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photog.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,12 +89,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF0A2E801B07A2BC0018002E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BF0A2E811B07A2EA0018002E /* String+Extensions.swift */,
+				BF0A2E831B07B10A0018002E /* UIViewController+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		BF504ACD1AD1D48D0032BDC8 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				BFA72F671AD1B8900091167B /* StartViewController.swift */,
 				BFA72F681AD1B8900091167B /* StartViewController.xib */,
 				BF504AC91AD1D4810032BDC8 /* AuthViewController.swift */,
+				BF0A2E851B08ED3E0018002E /* TabBarController.swift */,
 				BF504ACA1AD1D4810032BDC8 /* AuthViewController.xib */,
 			);
 			name = "View Controllers";
@@ -120,6 +136,7 @@
 				BF504ACD1AD1D48D0032BDC8 /* View Controllers */,
 				BFA72F301AD196340091167B /* Images.xcassets */,
 				BFA72F321AD196340091167B /* LaunchScreen.xib */,
+				BF0A2E801B07A2BC0018002E /* Extensions */,
 				BFA72F271AD196340091167B /* Supporting Files */,
 				BFA72F611AD1A2B60091167B /* Photog-Bridging-Header.h */,
 				BFA72F661AD1B40E0091167B /* Frameworks */,
@@ -243,7 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF0A2E821B07A2EA0018002E /* String+Extensions.swift in Sources */,
 				BFA72F2A1AD196340091167B /* AppDelegate.swift in Sources */,
+				BF0A2E841B07B10A0018002E /* UIViewController+Extensions.swift in Sources */,
+				BF0A2E861B08ED3E0018002E /* TabBarController.swift in Sources */,
 				BF504ACB1AD1D4810032BDC8 /* AuthViewController.swift in Sources */,
 				BFA72F691AD1B8900091167B /* StartViewController.swift in Sources */,
 			);

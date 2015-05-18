@@ -8,7 +8,15 @@
 
 import UIKit
 
+enum AuthMode
+{
+    case SignIn
+    case SignUp
+}
+
 class AuthViewController: UIViewController, UITextFieldDelegate {
+    
+    var authMode: AuthMode = AuthMode.SignUp
 
     @IBOutlet var emailTextField: UITextField?
     @IBOutlet var passwordTextField: UITextField?
@@ -61,7 +69,7 @@ class AuthViewController: UIViewController, UITextFieldDelegate {
     }
     func textFieldShouldReturn(textField: UITextField) -> Bool
     {
-    if (textField == self.emailTextField)
+        if (textField == self.emailTextField)
     {
         self.emailTextField?.resignFirstResponder()
         self.passwordTextField?.becomeFirstResponder()
@@ -75,7 +83,65 @@ class AuthViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
-    func authenticate() {
-        println("authenticate")
+    func authenticate()
+    {
+        var email = self.emailTextField?.text
+        var password = self.passwordTextField?.text
+        
+        if (email?.isEmpty == true || password?.isEmpty == true || email?.isEmailAddress() == false)
+        {
+            self.showAlert("uh oh!", message: "Please check email and password.")
+            
+           return
+        }
+        
+        if authMode == .SignIn
+        {
+            self.signIn(email!, password: password!)
+        }
+        else
+        {
+            self.signUp(email!, password: password!)
+        }
+    }
+    
+    func signIn(email: String?, password: String?)
+    {
+        PFUser.logInWithUsernameInBackground(email!, password: password!) {
+            (user: PFUser?, error: NSError?) -> Void in
+            
+            if (user != nil)
+            {
+                var tabBarController = TabBarController()
+                self.navigationController?.pushViewController(tabBarController, animated: true)
+            }
+            else
+            {
+                println("sign in failure. (alert the user)")
+            }
+        }
+    }
+    
+    func signUp(email: String?, password: String?)
+    {
+        var user = PFUser()
+        user.username = email
+        user.email = email
+        user.password = password
+        
+        user.signUpInBackgroundWithBlock {
+            (succeeded: Bool, error: NSError?) -> Void in
+            
+            if error == nil
+            {
+                println("sign up success!")
+                var tabBarController = TabBarController()
+                self.navigationController?.pushViewController(tabBarController, animated: true)
+            }
+            else
+            {
+                println("sign up failure!) (alert the user)")
+            }
+        }
     }
 }

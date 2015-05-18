@@ -29,10 +29,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if PFUser.currentUser() == nil
         
         {
-                navigationController.viewControllers = [startViewController]
+            navigationController.viewControllers = [startViewController]
         }
         else
         {
+            var tabBarController = TabBarController()
+            navigationController.viewControllers = [startViewController, tabBarController]
             println("user does indeed exist")
         }
         
